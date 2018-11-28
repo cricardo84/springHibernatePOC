@@ -12,6 +12,12 @@ public class Main {
 		Coach myCurrentCoach = context.getBean("myRunningCoach", Coach.class);
 		
 		System.out.println("My current workout is: " + myCurrentCoach.getDailyWorkout());
+		
+		System.out.println("1");
+		
+		System.out.println("2");
+		
+		System.out.println("3");
 
 		context.close();
 	}
