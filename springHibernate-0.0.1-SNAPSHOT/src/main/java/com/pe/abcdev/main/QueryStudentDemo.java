@@ -51,6 +51,7 @@ public class QueryStudentDemo {
 			session.getTransaction().commit();
 			System.out.println("Done...!!!");
 			
+			
 		} catch (Exception e) {
 			factory.close();
 		}
